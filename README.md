@@ -28,11 +28,17 @@ The first time it runs, macOS asks two things. Allow both:
 |---|---|
 | **Monitoring** | A big monitor knob with DIM and MUTE, speaker sets (MAIN, ALT, MINI, QUAD, 5.1, 7.1), mono, and both headphone outputs. Also in the menu bar. |
 | **Headphone Mixes** | Two zero-latency cue mixes with stereo-linked pairs and a one-click DAW rough mix. |
-| **Phone Remote** | Scan a QR code and your phone becomes the monitor controller. |
+| **Phone Remote** | Scan a QR code and your phone becomes the monitor controller, with live meters. |
+| **Stream Deck** | Level dials and monitoring keys through Bitfocus Companion. |
 | **Routing** | Choose what every output plays and what every recording channel carries. |
 | **Profiles** | Save and recall your whole setup. Conductor also restores your settings if the interface forgets them after a power cycle. |
 
 <p align="center"><img src="images/mixes.jpg" width="560" alt="Headphone Mixes"> &nbsp; <img src="images/phone.jpg" width="150" alt="Phone Remote"></p>
+
+## Stream Deck
+
+Conductor works with [Bitfocus Companion](https://bitfocus.io/companion): dials for the main and headphone levels (press to mute), and keys for mute, dim, mono, speaker sets and headphone mixes.
+The module, **Conductor for Companion.tgz**, is in the download ([or here](https://github.com/BigDumbRobot/Conductor/releases/latest/download/Conductor-for-Companion.tgz)). In Companion: **Modules → Import module package**, add a **Conductor** connection, then drag the presets onto your Stream Deck.
 
 ## Update or remove
 
